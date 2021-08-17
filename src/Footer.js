@@ -61,7 +61,7 @@ export class Footer extends Component {
 
         <div className="quicklinkgrid-bottom">
           <div className="q-b-copyright f-h"> Copyright &copy; 2020, All Rights Reserved.</div>
-          <div className="q-b-cobat f-h">Designed by<div className="cobat"><a href="https://codingbattalion.com/">CodingBattalion</a></div></div>
+          <div className="q-b-cobat f-h">Designed by<div className="cobat"><a href="https://codingbattalion.com/">RohitDevDesigns</a></div></div>
         </div>
         <div className="last-space"></div>
       </div>
