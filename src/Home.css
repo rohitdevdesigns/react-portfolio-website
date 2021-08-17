@@ -1,0 +1,148 @@
+.header-grid {
+  margin-top: -2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  min-height: 50vh;
+  grid-gap: 2rem;
+  padding: 24px 180px;
+  font-family: "Raleway", sans-serif;
+}
+.pro-img {
+  overflow: hidden !important;
+}
+.pro-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-out;
+}
+.pro-img img:hover {
+  transform: scale(1.2);
+}
+.intro {
+  margin-top: 0rem;
+}
+.intro h1 {
+  font-size: calc(10px + 3vmin);
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+.intro h3 {
+  margin: 6px 0;
+  letter-spacing: 2px;
+}
+.intro p {
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 30px;
+  width: 100%;
+  font-size: calc(5px + 1vmin);
+}
+.follow-me {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.follow-me .social-icons {
+  padding: 12px 0;
+}
+.awards {
+  padding: 32px 180px;
+  font-family: "Raleway", sans-serif;
+  margin: 48px 0;
+}
+.awards h2 {
+  text-align: center;
+  padding: 12px;
+  font-size: calc(12px + 4vmin);
+  margin-bottom: 2rem;
+}
+.gallery {
+  padding: 32px 180px;
+  margin: 48px 0;
+}
+.gallery h2 {
+  text-align: center;
+  padding: 12px;
+  font-size: calc(12px + 4vmin);
+}
+.iframes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  padding: 24px 180px;
+}
+.iframes iframe {
+  margin: 12px 0;
+  border-radius: 8px;
+}
+.youtube-videos {
+  display: grid;
+  justify-content: center;
+  background-color: #FF3333;
+}
+.youtube-videos iframe{
+width: 100%;
+height: 200px;
+}
+.facebook-wall {
+  display: grid;
+  justify-content: center;
+  background-color: #3f51b5;
+}
+.facebook-wall iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 500px;
+}
+.iframes h2 {
+  text-align: center;
+  padding: 12px;
+  font-size: calc(12px + 4vmin);
+  color: white;
+}
+.main-events{
+    background-color: #3f51b5;
+    font-family: "Raleway", sans-serif;
+}
+.main-events h2{
+    text-align: center;
+    padding: 24px;
+    font-size: calc(12px + 4vmin);
+    margin-top: 48px;
+    color: #ffffff;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(345px, 0fr));
+    justify-content: center;
+    grid-gap: 3rem;
+    padding: 24px;
+    margin: 24px 0;
+}
+@media only screen and (max-width: 920px) {
+  .header-grid {
+    padding: 24px;
+  }
+  .intro {
+    margin-bottom: 4rem;
+  }
+  .intro p {
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 30px;
+    width: 100%;
+    font-size: 14px;
+  }
+  .intro h1 {
+    font-size: calc(12px + 4vmin);
+  }
+  .awards {
+    padding: 24px 0;
+  }
+  .gallery {
+    padding: 24px;
+  }
+  .iframes {
+    padding: 0;
+  }
+}
